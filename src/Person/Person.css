@@ -1,0 +1,44 @@
+.Person{
+    width: 60%;
+    padding: 16px;
+    margin: 24px auto 24px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+
+    min-height: 200px;
+    background: white;
+    border-radius: 5px;
+
+    transition: 0.3s;
+
+}
+
+.Person:hover{
+    width: 61%;
+    
+}
+
+.Person:hover .Input{
+    border: 1px solid cornflowerblue;
+}
+
+.Input{
+    max-width: 30%;
+    border: 1px solid black;
+
+    transition: 0.6s;
+
+}
+
+.Button{
+    margin: 16px;
+}
