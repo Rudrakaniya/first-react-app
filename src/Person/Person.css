@@ -24,7 +24,7 @@
 
 .Person:hover{
     width: 61%;
-    
+    /* border:2px solid black; */
 }
 
 .Person:hover .Input{
